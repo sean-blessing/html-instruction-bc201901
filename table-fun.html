@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Fun</title>
+    <style>
+        table tr td {
+            border-width: 1px; border-style:solid;
+        }
+        td:nth-child(1) { font-weight:bold; }
+        td:nth-child(2) { text-align:right; }
+        td:nth-child(3) { font-style: italic; }
+        tr:nth-child(even) { background-color: lightgrey }
+    </style>
+</head>
+<body>
+    <h1>Table with color coded rows</h1>
+    <table>
+        <tr><th>col1</th><th>col2</th><td rowspan="4">col3</td></tr>
+        <tr><td>row2</td><td>this is row2</td></tr>
+        <tr><td>row3</td><td>row3</td></tr>
+        <tr><td>row4</td><td>check me out, i'm row4</td></tr>
+    </table>
+    
+</body>
+</html>

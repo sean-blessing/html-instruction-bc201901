@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello</title>
-    <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <style>
+        p{color:red; border-style:solid; font-size:12pt}
+        .makeItBlue{color:blue}
+        div {color:rgb(0,0,255); background-color: yellow; border-color:green; scrollbar-face-color:blue}
+    </style>
 </head>
 <body>
     This is my first web page!<br>
-    <ol id='top'>
+    <ol>
         <li>Cats</li>
         <li class="makeItBlue">Dogs</li>
         <li>Birds</li>
@@ -34,25 +38,14 @@
         comments
     -->
     <input type = "text" name="city" disabled=false>
-    <h1>A triangle</h1>
-    Just a simple... well not really...:
-    <div style="width: 100px;
-                height: 100px;
-                border-left: 50px solid transparent;
-                border-right: 75px solid transparent;
-                border-bottom: 50px solid gray;"
-    > </div>
-
-    <ul style="list-style-image:url(Images/flower030.png)">
+    <ul style="list-style-image: url('Images/flower030.png')">
         <li>1st item</li>
         <li>2nd item</li>
         <li>3rd item</li>
     </ul>
 
     <div>
-        Experimenting with color
+        This is a div!
     </div>
-    <a href="javascript:confirm('hello there')">Alert</a>
-    <a href="#top" style="cursor:help">Go to top...</a>
 </body>
 </html>

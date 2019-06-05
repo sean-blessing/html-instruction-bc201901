@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Form</title>
+</head>
+<body>
+    <form name="myForm">
+        Movie Title:  <input type="text" name="movieTitle"><br>
+        Release Year: <input type="text" name="movieYear"><br>
+        <button onclick="alert(myForm.movieTitle.value+' was released in '+
+                            myForm.movieYear.value+'.')">OK</button>
+        <br>
+        Pick your favorite color:  
+        <select name="color">
+            <option value="none" selected>Pick a color</option>
+            <option value="blue">Blue</option>
+            <option value="orange">Orange</option>
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+            <option value="green">Green</option>
+        </select>
+    </form>
+</body>
+</html>
